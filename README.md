@@ -1,6 +1,6 @@
 # React JS Portfolio
 
-![React JS Portfolio Starter Pack](resume-screenshot.jpg?raw=true "React JS Portfolio Stater Pack ")
+![Screenshot](screenshot.png?raw=true "React JS Portfolio Stater Pack ")
 
 ### <a href="https://react-portfolio-manthanank.netlify.app/">LIVE DEMO</a>
 
