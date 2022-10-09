@@ -15,6 +15,18 @@ const Resume = ({ data }) => {
         </div>
       );
     });
+    var collegeinternship = data.collegeinternship.map(function (collegeinternship) {
+      return (
+        <div key={collegeinternship.company}>
+          <h3>{collegeinternship.company}</h3>
+          <p className="info">
+            {collegeinternship.title}
+            <span>&bull;</span> <em className="date">{collegeinternship.years}</em>
+          </p>
+          <p>{collegeinternship.description}</p>
+        </div>
+      );
+    });
     var internship1 = data.internship1.map(function (internship1) {
       return (
         <div key={internship1.company}>
@@ -27,18 +39,6 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var training = data.training.map(function (training) {
-      return (
-        <div key={training.company}>
-          <h3>{training.company}</h3>
-          <p className="info">
-            {training.title}
-            <span>&bull;</span> <em className="date">{training.years}</em>
-          </p>
-          <p>{training.description}</p>
-        </div>
-      );
-    });
     var internship2 = data.internship2.map(function (internship2) {
       return (
         <div key={internship2.company}>
@@ -48,6 +48,18 @@ const Resume = ({ data }) => {
             <span>&bull;</span> <em className="date">{internship2.years}</em>
           </p>
           <p>{internship2.description}</p>
+        </div>
+      );
+    });
+    var training = data.training.map(function (training) {
+      return (
+        <div key={training.company}>
+          <h3>{training.company}</h3>
+          <p className="info">
+            {training.title}
+            <span>&bull;</span> <em className="date">{training.years}</em>
+          </p>
+          <p>{training.description}</p>
         </div>
       );
     });
@@ -78,6 +90,16 @@ const Resume = ({ data }) => {
         </div>
       </div>
 
+      <div className="row internship2">
+        <div className="three columns header-col">
+          <h1>
+            <span>internship</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">{internship2}</div>
+      </div>
+
       <div className="row internship1">
         <div className="three columns header-col">
           <h1>
@@ -98,14 +120,14 @@ const Resume = ({ data }) => {
         <div className="nine columns main-col">{training}</div>
       </div>
 
-      <div className="row internship2">
+      <div className="row collegeinternship">
         <div className="three columns header-col">
           <h1>
-            <span>internship</span>
+            <span>college internship</span>
           </h1>
         </div>
 
-        <div className="nine columns main-col">{internship2}</div>
+        <div className="nine columns main-col">{collegeinternship}</div>
       </div>
       
       <div className="row skill">
