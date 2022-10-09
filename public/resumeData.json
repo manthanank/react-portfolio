@@ -3,18 +3,18 @@
     "name": "Manthan Ank",
     "occupation": "Front-End Developer",
     "description": "I eat, sleep and learn web development",
-    "image": "profilepic.jpg",
-    "bio": "Hi there! I am Manthan! You might also know me as manthanank. I've been coding for over 2 years now. As a Front-End developer I've started my journey in web development and enrolled for training programme and completed, also had done internship in ML using python. Worked as Front End Angular Developer in Faclon Labs Pvt.Ltd.",
+    "image": "profilepic.webp",
+    "bio": "Hi there! I am Manthan! You might also know me as manthanank. I've been coding over 2 years now. I started my journey in web development and enrolled for training programme and also done various internships in front-end as well as backend.",
     "contactmessage": "Get in touch with me!",
     "email": "manthan.ank46@gmail.com",
     "phone": "+91 8105068268",
     "address": {
-      "city": "Ankola",
+      "city": "Karwar",
       "state": "Karnataka",
       "zip": "581314"
     },
     "website": "#home",
-    "resumedownload": "https://docs.google.com/document/d/1hEfH5DDqR9l0UOFN4NDg6VUOcvSZiZHXNqAu_4lHVIY/edit?usp=sharing",
+    "resumedownload": "https://docs.google.com/document/d/1Ba40AaV2Ol5hueeVe5wCI1GeBEtcPJXp3mzm-HZ6BHk/edit?usp=sharing",
     "social": [
       {
         "name": "twitter",
@@ -48,9 +48,17 @@
     "education": [
       {
         "school": "Sahyadri College of Engineering and Management",
-        "degree": "Bachelor's Degree, Computer Science",
+        "degree": "Bachelor's Degree",
         "graduated": "Aug 2020",
-        "description": "Batch of 2020"
+        "description": "Graduated in Computer Science"
+      }
+    ],
+    "collegeinternship": [
+      {
+        "company": "Karanji InfoTech Pvt.Ltd",
+        "title": "Student Intern",
+        "years": "May 2019 - Jun 2019",
+        "description": "Completed one month internship and project on machine learning using python “Conversion Text to Speech Construction Using Multiple Data (CSV file)”."
       }
     ],
     "internship1": [
@@ -58,15 +66,15 @@
         "company": "Faclon Labs Pvt.Ltd",
         "title": "Front-End Developer Intern",
         "years": "22 Nov 2021 - 25 Apr 2022",
-        "description": "It was six months internship in angular as a front-end developer. My work work was to design and develop in projects like Admin Panel, Main Project, Report UI."
+        "description": "Worked for 3 months as Intern And 3 months as Full Time Front End Angular Developer. Work was to design and develop in projects like Admin Panel, IOSense(Main Project), Report UI."
       }
     ],
     "internship2": [
       {
-        "company": "Karanji InfoTech Pvt.Ltd",
-        "title": "Student Intern",
-        "years": "May 2019 - Jun 2019",
-        "description": "Completed one month internship and project on machine learning using python “Conversion Text to Speech Construction Using Multiple Data (CSV file)”."
+        "company": "AppiVa Software Pvt.Ltd",
+        "title": "Front End Developer",
+        "years": "May 2022 - Present",
+        "description": "Worked for 3 months as Intern. Worked in both Front End as well as Backend Projects. Work is to design and develop in projects. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs + Python. With Frebase as Databse."
       }
     ],
     "training": [
@@ -117,45 +125,51 @@
       {
         "title": "Netflix Clone Page",
         "category": "React",
-        "image": "netflix-clone.png",
+        "image": "netflix-clone.webp",
         "url": "https://github.com/manthanank/netflix-clone"
       },
       {
         "title": "Modern Cryptopunk Clone with React.js & Web 3.0",
         "category": "React",
-        "image": "moderncryptopunkclonewithreact.js&web3.0.png",
+        "image": "moderncryptopunkclonewithreactjs.webp",
         "url": "https://github.com/manthanank/react-app-tokens"
       },
       {
         "title": "Covid-19 Tracker App",
         "category": "Angular",
-        "image": "covidtrackerpage.png",
+        "image": "covidtrackerpage.webp",
         "url": "https://github.com/manthanank/covid19tracker"
+      },
+      {
+        "title": "Digital Resume",
+        "category": "Angular",
+        "image": "digital-resume.webp",
+        "url": "https://github.com/manthanank/manthanank.github.io"
       }
     ],
     "profiles": [
       {
         "title": "LinkedIn",
         "category": "Profile",
-        "image": "linkedinprofile.png",
+        "image": "linkedin-profile.webp",
         "url": "https://www.linkedin.com/in/manthan-ankolekar-597b07a8/"
       },
       {
         "title": "GitHub",
         "category": "Profile",
-        "image": "githubprofile.png",
+        "image": "github-profile.webp",
         "url": "https://github.com/manthanank"
       },
       {
         "title": "CodePen",
         "category": "Profile",
-        "image": "codepenprofile.png",
+        "image": "codepen-profile.webp",
         "url": "https://codepen.io/manthanank"
       },
       {
         "title": "StackOverflow",
         "category": "Profile",
-        "image": "stackoverflowprofile.png",
+        "image": "stackoverflow-profile.webp",
         "url": "https://stackoverflow.com/users/14292971/manthan-ankolekar?tab=profile"
       }
     ]
