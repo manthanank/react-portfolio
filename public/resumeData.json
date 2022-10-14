@@ -2,7 +2,7 @@
   "main": {
     "name": "Manthan Ank",
     "occupation": "Front-End Developer",
-    "description": "I eat, sleep and learn web development",
+    "description": "Wkae Up, Code, learn, eat and sleep!",
     "image": "profilepic.webp",
     "bio": "Hi there! I am Manthan! You might also know me as manthanank. I've been coding over 2 years now. I started my journey in web development and enrolled for training programme and also done various internships in front-end as well as backend.",
     "contactmessage": "Get in touch with me!",
@@ -88,35 +88,43 @@
     "skills": [
       {
         "name": "HTML",
-        "level": "90%"
+        "level": "90%",
+        "image": "angular-svgrepo-com.svg"
       },
       {
         "name": "CSS",
-        "level": "80%"
+        "level": "80%",
+        "image": "angular-svgrepo-com.svg"
       },
       {
         "name": "JavaScript",
-        "level": "78%"
+        "level": "78%",
+        "image": "angular-svgrepo-com.svg"
       },
       {
         "name": "Angular",
-        "level": "75%"
+        "level": "75%",
+        "image": "angular-svgrepo-com.svg"
       },
       {
         "name": "ReactJS",
-        "level": "60%"
+        "level": "60%",
+        "image": "angular-svgrepo-com.svg"
       },
       {
         "name": "Git",
-        "level": "75%"
+        "level": "75%",
+        "image": "angular-svgrepo-com.svg"
       },
       {
         "name": "Python",
-        "level": "45%"
+        "level": "45%",
+        "image": "angular-svgrepo-com.svg"
       },
       {
         "name": "Web Development",
-        "level": "85%"
+        "level": "85%",
+        "image": "angular-svgrepo-com.svg"
       }
     ]
   },
