@@ -286,49 +286,6 @@ ul#nav li a:hover { color:#1d1b1b; background-color:white; opacity: 0.3;}
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
-
-.bars {
-	width: 75%;
-	float: left;
-	padding: 0;
-	text-align: left;
-}
-.bars .skills {
-  	margin-top: 16px;
-   list-style: none;
-}
-.bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 32px;
-  	border-radius: 3px;
-}
-.bars li em {
-	font: 12px 'opensans-bold', sans-serif;
-   color: #313131;
-	text-transform: uppercase;
-   letter-spacing: 2px;
-	font-weight: normal;
-   position: relative;
-	top: -26px;
-}
-.bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 32px;
-   line-height: 22px;
-   border-radius: 3px 0 0 3px;
-}
 /*
 .git {
   	-moz-animation: git 2s ease;
@@ -783,7 +740,7 @@ call-to-action .button {
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	float: left;
+	/* float: left; */
    width: 26%;
 }
 #contact input,
