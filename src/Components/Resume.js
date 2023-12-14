@@ -50,6 +50,18 @@ const Resume = ({ data }) => {
         </div>
       );
     });
+    var work = data.work.map(function (work) {
+      return (
+        <div key={work.company}>
+          <h3>{work.company}</h3>
+          <p className="info">
+            {work.title}
+            <span>&bull;</span> <em className="date">{work.years}</em>
+          </p>
+          <p>{work.description}</p>
+        </div>
+      );
+    });
     var training = data.training.map(function (training) {
       return (
         <div key={training.company}>
@@ -80,7 +92,17 @@ const Resume = ({ data }) => {
         </div>
       </div>
 
-      <div className="row internship2">
+      <div className="row work">
+        <div className="three columns header-col">
+          <h1>
+            <span>work</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">{work}</div>
+      </div>
+
+      <div className="row work">
         <div className="three columns header-col">
           <h1>
             <span>internship</span>

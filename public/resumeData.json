@@ -72,8 +72,16 @@
       {
         "company": "AppiVa Software Pvt.Ltd",
         "title": "Front End Developer",
-        "years": "May 2022 - Present",
+        "years": "May 2022 - Dec 2022",
         "description": "Worked for 3 months as Intern. Worked in both Front End as well as Backend Projects. Work is to design and develop in projects. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs + Python. With Frebase as Databse."
+      }
+    ],
+    "work": [
+      {
+        "company": "Blackcoffer",
+        "title": "Software Engineer",
+        "years": "Feb 2023 - Present",
+        "description": "Worked for 6 months as Associate Software Engineer. Worked in both Front End as well as Backend Projects. Work in most of the dashboard type projects. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs. Stack is MEAN."
       }
     ],
     "training": [
