@@ -11,8 +11,10 @@ This portfolio is made using React. The data on the portfolio is directly linked
 
 <a href="https://github.com/tbakerx">Tim Baker</a>
 
+Repo Link: <a href="https://github.com/tbakerx/react-resume-template">URL</a>
+
 <a href="https://github.com/sonnysangha">Sonny Sangha</a>
 
-<a href="https://github.com/PapaReact">PapaReact</a>
+Repo Link: <a href="https://github.com/sonnysangha/Resume-Portfolio-Starter-pack">URL</a>
 
-Repo Link: <a href="https://github.com/tbakerx/react-resume-template">URL</a>
+<a href="https://github.com/PapaReact">PapaReact</a>
