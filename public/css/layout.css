@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.webp) no-repeat top center;
+   background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 20px;
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -66,20 +66,15 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #000000;
+   color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: rgb(255, 255, 255);
-   font: 30px/1.5em 'opensans-bold', sans-serif;
-   
-   border-radius: 3px;
-   padding: 2px;
+   color: #fff;
 }
-
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
@@ -185,7 +180,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
-ul#nav li a:hover { color:#1d1b1b; background-color:white; opacity: 0.3;}
+
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -286,6 +281,49 @@ ul#nav li a:hover { color:#1d1b1b; background-color:white; opacity: 0.3;}
    margin-top: 6px;
 }
 
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.bars {
+	width: 95%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+.bars .skills {
+  	margin-top: 36px;
+   list-style: none;
+}
+.bars li {
+   position: relative;
+  	margin-bottom: 60px;
+  	background: #ccc;
+  	height: 42px;
+  	border-radius: 3px;
+}
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: normal;
+   position: relative;
+	top: -36px;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #313131;
+   display: inline-block;
+  	height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
 /*
 .git {
   	-moz-animation: git 2s ease;
@@ -602,6 +640,70 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
+/* ------------------------------------------------------------------
+/* g. Testimonials
+/* ------------------------------------------------------------------ */
+
+#testimonials {
+   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+}
+#testimonials .text-container {
+   padding-top: 96px;
+   padding-bottom: 66px;
+}
+#testimonials h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#testimonials h1 span { display: none; }
+#testimonials .header-col { padding-top: 9px; }
+#testimonials .header-col h1:before {
+   font-family: 'FontAwesome';
+   content: "\f10d";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
+}
+
+/*	Blockquotes */
+#testimonials blockquote {
+   margin: 0 0px 30px 0px;
+   padding-left: 0;
+   position: relative;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+}
+#testimonials blockquote:before { content: none; }
+#testimonials blockquote p {
+   font-family: 'librebaskerville-italic', serif;
+   padding: 0;
+   font-size: 24px;
+   line-height: 48px;
+   color: #fff
+}
+#testimonials blockquote cite {
+   display: block;
+   font-size: 12px;
+   font-style: normal;
+   line-height: 18px;
+   color: #fff;
+}
+#testimonials blockquote cite:before { content: "\2014 \0020"; }
+#testimonials blockquote cite a,
+#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
@@ -740,7 +842,7 @@ call-to-action .button {
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	/* float: left; */
+	float: left;
    width: 26%;
 }
 #contact input,
@@ -755,7 +857,6 @@ call-to-action .button {
    font-size: 15px;
    line-height: 24px;
    width: 65%;
-   border-radius: 5px;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -772,7 +873,7 @@ call-to-action .button {
    cursor: pointer;
    height: auto;
    display: inline-block;
-	border-radius: 5px;
+	border-radius: 3px;
    margin-left: 26%;
 }
 #contact button.submit:hover {

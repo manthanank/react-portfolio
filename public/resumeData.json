@@ -1,123 +1,121 @@
 {
   "main": {
-    "name": "Manthan Ank",
-    "occupation": "Front-End Developer",
-    "description": "Wake Up, Code, learn, eat and sleep!",
-    "image": "profilepic.webp",
-    "bio": "Hi there! I am Manthan! You might also know me as manthanank. I've been coding over 2 years now. I started my journey in web development and enrolled for training programme and also done various internships in front-end as well as backend.",
-    "contactmessage": "Get in touch with me!",
-    "email": "manthan.ank46@gmail.com",
-    "phone": "+91 8105068268",
+    "name": "Sonny Sangha",
+    "occupation": "CEO of PAPA",
+    "description": "I eat, sleep and breathe React",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
+    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+    "email": "papareact.team@gmail.com",
+    "phone": "+44 1234567899",
     "address": {
-      "city": "Karwar",
-      "state": "Karnataka",
-      "zip": "581314"
+      "street": "123 Dev Lane",
+      "city": "London",
+      "state": "Devosphere",
+      "zip": "W3B D3V"
     },
-    "website": "#home",
-    "resumedownload": "https://docs.google.com/document/d/1Ba40AaV2Ol5hueeVe5wCI1GeBEtcPJXp3mzm-HZ6BHk/edit?usp=sharing",
+    "website": "https://www.papareact.com/course",
+    "resumedownload": "http://papareact.com",
     "social": [
       {
-        "name": "twitter",
-        "url": "https://twitter.com/manthan_ank",
-        "className": "fa fa-twitter"
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
+        "className": "fa fa-youtube"
       },
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/Manthan.ankolekar/",
+        "url": "https://www.facebook.com/sonny.sangha.3",
         "className": "fa fa-facebook"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/manthan-ankolekar-597b07a8/",
+        "url": "https://www.linkedin.com/in/saajansangha",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/manthan_ank/",
+        "url": "https://www.instagram.com/ssssangha/",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/manthanank",
+        "url": "https://github.com/PapaReact",
         "className": "fa fa-github"
       }
     ]
   },
   "resume": {
+    "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "Sahyadri College of Engineering and Management",
-        "degree": "Bachelor's Degree",
-        "graduated": "Aug 2020",
-        "description": "Graduated in Computer Science"
-      }
-    ],
-    "collegeinternship": [
-      {
-        "company": "Karanji InfoTech Pvt.Ltd",
-        "title": "Student Intern",
-        "years": "May 2019 - Jun 2019",
-        "description": "Completed one month internship and project on machine learning using python “Conversion Text to Speech Construction Using Multiple Data (CSV file)”."
-      }
-    ],
-    "internship1": [
-      {
-        "company": "Faclon Labs Pvt.Ltd",
-        "title": "Front-End Developer Intern",
-        "years": "22 Nov 2021 - 25 Apr 2022",
-        "description": "Worked for 3 months as Intern And 3 months as Full Time Front End Angular Developer. Work was to design and develop in projects like Admin Panel, IOSense(Main Project), Report UI."
-      }
-    ],
-    "internship2": [
-      {
-        "company": "AppiVa Software Pvt.Ltd",
-        "title": "Front End Developer",
-        "years": "May 2022 - Dec 2022",
-        "description": "Worked for 3 months as Intern. Worked in both Front End as well as Backend Projects. Work is to design and develop in projects. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs + Python. With Frebase as Databse."
+        "school": "University of Kent - UK",
+        "degree": "Bachelor's Degree, Computer Science",
+        "graduated": "July 2016",
+        "description": "Graduated with First Class Honours"
       }
     ],
     "work": [
       {
-        "company": "Blackcoffer",
-        "title": "Software Engineer",
-        "years": "Feb 2023 - Present",
-        "description": "Worked for 6 months as Associate Software Engineer. Worked in both Front End as well as Backend Projects. Work in most of the dashboard type projects. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs. Stack is MEAN."
+        "company": "PAPA",
+        "title": "Founder and CEO",
+        "years": "May 2019 - Present",
+        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
       }
     ],
-    "training": [
+    "skills": [
       {
-        "company": "SounderGrad Training Programme",
-        "title": "Training",
-        "years": "May 2021 - July 2021",
-        "description": "Completed two training in front-end development using HTML5, CSS, JavaScript, JSON, RestAPI, Angular. And completed one project in angular ie, Covid-19 Tracker Web Page using API."
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "Python",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "99%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
       }
     ]
   },
   "portfolio": {
-    "profiles": [
+    "projects": [
       {
-        "title": "LinkedIn",
-        "category": "Profile",
-        "image": "linkedin-profile.webp",
-        "url": "https://www.linkedin.com/in/manthan-ankolekar-597b07a8/"
+        "title": "Snapchat Clone (React JS)",
+        "category": "",
+        "image": "snapchat.jpg",
+        "url": "https://youtu.be/1kGISk5ft2w"
       },
       {
-        "title": "GitHub",
-        "category": "Profile",
-        "image": "github-profile.webp",
-        "url": "https://github.com/manthanank"
+        "title": "Gmail Clone (React JS)",
+        "category": "",
+        "image": "gmail.jpg",
+        "url": "https://youtu.be/b7nrXjS6Dqs"
       },
       {
-        "title": "Twitter",
-        "category": "Profile",
-        "image": "twitter-profile.webp",
-        "url": "https://twitter.com/manthan_ank"
+        "title": "LinkedIn Clone (React JS)",
+        "category": "",
+        "image": "linkedin.jpg",
+        "url": "https://youtu.be/QaYts9sPmcY"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+        "user": "Jorge Fouto"
       },
       {
-        "title": "CodePen",
-        "category": "Profile",
-        "image": "codepen-profile.webp",
-        "url": "https://codepen.io/manthanank"
+        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+        "user": "Adam Curtis"
       }
     ]
   }
