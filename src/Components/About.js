@@ -2,9 +2,10 @@ import React from "react";
 
 const About = ({ data }) => {
   if (data) {
-    //var name = data.name;
+    var name = data.name;
     var profilepic = "images/" + data.image;
     var bio = data.bio;
+    var street = data.address.street;
     var city = data.address.city;
     var state = data.address.state;
     var zip = data.address.zip;
@@ -31,9 +32,10 @@ const About = ({ data }) => {
             <div className="columns contact-details">
               <h2>Contact Details</h2>
               <p className="address">
-                <span>Manthan Ankolekar</span>
+                <span>{name}</span>
                 <br />
                 <span>
+                  {street}
                   <br />
                   {city} {state}, {zip}
                 </span>

@@ -21,9 +21,9 @@ const Footer = ({ data }) => {
 
           <ul className="copyright">
             <li>
-              Edited by{" "}
-              <a title="portfolio" href="#home">
-                Manthan
+              Made by{" "}
+              <a title="PAPA" href="http://www.papareact.com/">
+                PapaReact
               </a>
             </li>
           </ul>
